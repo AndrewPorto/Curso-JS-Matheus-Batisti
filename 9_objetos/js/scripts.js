@@ -1,13 +1,15 @@
-//Hoisting - içamento
-console.log(sobrenome);
+var obj = {
+    nome:  "Andrew",
+    idade: 30,
+    Profissao: "Programador"
+};
 
+console.log(obj);
 
-var nome = null;
-var sobrenome = "Porto";
+console.log(typeof obj);
 
-console.log(nome);
-console.log(sobrenome);
+console.log(obj.nome);
+console.log(obj.idade);
+console.log(obj.Profissao);
 
-nome = "Andrew";
-
-console.log(nome);
+console.log("O meu nome é " + obj.nome)
